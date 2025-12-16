@@ -140,7 +140,7 @@ end
 
 
 %=====================================================================
-% (1) Create the directories
+% (4) Create the directories
 %=====================================================================
 % List of predefined directories
 directories = {directory1997, directory1998, directory1999, directory2000, ...
@@ -153,7 +153,7 @@ directories = {directory1997, directory1998, directory1999, directory2000, ...
 
 
 %=====================================================================
-% (2) Initialization for coordinates
+% (5) Initialization for coordinates
 %=====================================================================
 % Define X and Y ranges
 x_range = 2516.5:1:2530.5;
@@ -168,7 +168,7 @@ meses = {'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', ...
          'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'};
 
 %=====================================================================
-% (3) Main loop to iterate over X, Y, and data files
+% (6) Main loop to iterate over X, Y, and data files to organize latitude & longitude
 %=====================================================================
 for i = 1:length(x_range)
     for j = 1:length(y_range)
