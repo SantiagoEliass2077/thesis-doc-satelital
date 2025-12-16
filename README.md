@@ -47,7 +47,12 @@ scripts/SourceCode.m
 Before running the script, users must edit the variable `baseDir` to point
 to their local raw data directory corresponding to the selected river.
 
-The code was tested using MATLAB R2025b.
+The code was tested using MATLAB R2025b. With the following packages
+
+Statistics and Machine Learning Toolbox
+Signal Processing Toolbox
+Data adquisition Toolbox
+
 
 ---
 
