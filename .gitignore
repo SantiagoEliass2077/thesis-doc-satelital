@@ -1,0 +1,11 @@
+# Ignore raw satellite data
+data/raw/
+
+# Ignore MATLAB autosave and temp files
+*.asv
+*.m~
+*.mat
+
+# OS / editor files
+.DS_Store
+Thumbs.db
